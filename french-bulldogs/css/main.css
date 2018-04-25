@@ -1,19 +1,57 @@
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url('tajawal-regular-webfont.woff2') format('woff2'),
+         url('tajawal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .btn-group dropright{
+  background-color: yellow;
+}
+
+button {
+color: yellow;
+} */
+
+.btn-group {
+  color: yellow;
+}
+
+#menu {
+  background-color: #b1e0e6;
+}
+
+.navbar {
+  opacity: 0;
+}
+
+@media (min-width:48em) {}
+.navbar {
+  color: red;
+}
+
 h1 {
   color: white;
-  font-size: 4em;
+  font-size: 5em;
+  font-family: "Tajawal";
 }
 
 h2 {
   color: #b1e0e6;
-  font-size: 3.5em;
+  font-size: 4em;
   text-align: right;
   padding-bottom: .25em;
+  padding-right: 1em;
   border-bottom: .025em solid white;
+  font-family: "Tajawal";
 }
 
 h3 {
   color: white;
   font-size: 3em;
+  font-family: "Tajawal";
 }
 
 /* .text-center{
@@ -23,6 +61,57 @@ h3 {
 img {
   padding-top:1em;
   padding-bottom:1em;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#breed-page-background {
+  background-color: #86cce8;
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 3em;
+  border-bottom: 1em solid #b1e0e6;
+}
+
+.overlay-fade:hover .image{
+  opacity: 0.5;
+}
+
+.overlay-fade:hover .middle{
+  opacity: 1;
+}
+
+
+.overlay {
+  position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: #008CBA;
+}
+
+.text {
+  background-color: #86cce8;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 p {
@@ -32,6 +121,23 @@ p {
   padding-top: 4em;
   padding-bottom: 4em;
   color: gray;
+  font-family: "Tajawal";
+}
+
+/* @media (min-width:48em) {
+  p {
+    font-size: 3em;
+  } */
+
+.breed-text{
+  color: white;
+  font-size: .75em;
+  width: 90%;
+  max-width: 45em;
+  margin: 0 auto;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-family: "Tajawal";
 }
 
 .header-box {
@@ -64,7 +170,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin-left: 3em;
+  margin-left: 1.5em;
   /* margin: 0 -.1em; */
 }
 
@@ -80,8 +186,8 @@ nav a:focus {
 
 #fawn-frenchie {
   background-color: #5e9d9e;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 #blu-frenchie {
@@ -101,6 +207,17 @@ nav a:focus {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+/* #fawn-frenchie-breeds {
+  background-color: #5e9d9e;
+  padding-top: 4em;
+  padding-bottom: 1em;
+} */
+
+frenchie-links:hover,{
+  color: yellow;
+}
+
 
 @media (min-width:48em) {
 
