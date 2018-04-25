@@ -32,11 +32,21 @@ color: yellow;
   color: red;
 }
 
+
+
+
 h1 {
   color: white;
   font-size: 5em;
   font-family: "Tajawal";
 }
+
+/* .breed-traits{
+  color: white;
+  font-size: 5em;
+  font-family: "Tajawal";
+  text-align:center;
+} */
 
 h2 {
   color: #b1e0e6;
@@ -70,7 +80,7 @@ img {
   text-align: center;
   padding-top: 5em;
   padding-bottom: 5em;
-  padding-left: 3em;
+  /* padding-left: 3em; */
   border-bottom: 1em solid #b1e0e6;
 }
 
@@ -122,6 +132,7 @@ p {
   padding-bottom: 4em;
   color: gray;
   font-family: "Tajawal";
+  font-size: 1em;
 }
 
 /* @media (min-width:48em) {
@@ -131,12 +142,12 @@ p {
 
 .breed-text{
   color: white;
-  font-size: .75em;
+  font-size: 1em;
   width: 90%;
   max-width: 45em;
   margin: 0 auto;
   padding-top: 4em;
-  padding-bottom: 4em;
+  /* padding-bottom: 4em; */
   font-family: "Tajawal";
 }
 
@@ -148,29 +159,34 @@ p {
   border-bottom: 1em solid #b1e0e6;
 }
 
+.body-images{
+  padding: 0;
+}
+
 nav {
   background-color: #5e9d9e;
   list-style: none;
   padding-top: .75em;
   padding-bottom: .75em;
-  padding-left: 2em;
+  text-align: center;
 }
 
 a {
   color: white;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-family: "tajawal";
 }
 
 nav ul {
     list-style: none;
-    padding-top: .5em;
+    padding-top: .25em;
     padding-left: 0;
     margin: 0;
   }
 
 nav li {
   display: inline;
-  margin-left: 1.5em;
+  margin-left: 0.5em;
   /* margin: 0 -.1em; */
 }
 
@@ -180,7 +196,7 @@ nav li:first-child {
 
 nav a:hover,
 nav a:focus {
-  color: #b1e0e6;
+  color:  #5e9d9e;
   text-decoration: none;
 }
 
@@ -214,17 +230,41 @@ nav a:focus {
   padding-bottom: 1em;
 } */
 
-frenchie-links:hover,{
-  color: yellow;
-}
+
+@media (min-width:48em) {
+  #menu{
+    font-size: 1.5em;
+    /* text-align: left; */
+  }
 
 
 @media (min-width:48em) {
 
 h1 {
   color: white;
-  font-size: 6em;
+  font-size: 7em;
 }
+
+@media (min-width:24em) {
+
+h1 {
+  color: white;
+  font-size: 5em;
+}
+
+
+@media (min-width:48em) {
+
+  p{
+    font-size:1.25em;
+  }
+
+  @media (min-width:48em) {
+
+    .breed-text{
+      font-size: .8em;
+    }
+
 
 }
 
@@ -246,4 +286,12 @@ h1 {
     font-size:2em;
 }
 
+}
+
+
+.back-to-top{
+  background-color: #b1e0e6;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
