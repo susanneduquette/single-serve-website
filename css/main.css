@@ -250,6 +250,14 @@ nav a:focus {
   padding-bottom: 1em;
 } */
 
+.back-to-top {
+  background-color: #b1e0e6;
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  color: #5e9d9e;
+}
 
 @media (min-width:48em) {
   #menu{
@@ -257,18 +265,12 @@ nav a:focus {
     /* text-align: left; */
   }
 
-
-@media (min-width:48em) {
-
 h1 {
   color: white;
-  font-size: 7em;
+  font-size: 6em;
 }
 
-@media (min-width:24em) {
-
-h1 {
-  color: white;
+h2 {
   font-size: 5em;
 }
 
@@ -277,22 +279,13 @@ h1 {
 }
 
 
-@media (min-width:48em) {
-
   .caption-text{
     font-size:1.25em;
   }
 
-  @media (min-width:48em) {
-
     .breed-text{
       font-size: .8em;
     }
-
-
-}
-
-@media (min-width:48em) {
 
   #fawn-frenchie {
     font-size:2em;
@@ -310,11 +303,4 @@ h1 {
     font-size:2em;
 }
 
-.back-to-top {
-  background-color: #b1e0e6;
-  text-align: right;
-  padding-top: 1em;
-  padding-right: 3em;
-  padding-bottom: 1em;
-  color: #5e9d9e;
 }
